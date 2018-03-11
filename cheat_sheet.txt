@@ -1,0 +1,45 @@
+# Temporary repo for learning the commands
+
+git init // create a new repository 
+
+git add -A // add files to a staging area, before a commit
+
+git commit -m “My message” OR git commit 
+
+git push [remote name] [branch name]
+
+git pull [remote name] [branch name] = git fetch [remote name] AND git merge master origin/master
+
+git status // show the status of working directory and the staging area
+
+git clone [url] 
+
+
+
+git branch [name] // create a branch with a name 
+
+git branch // shows all the branches
+
+git branch -d [branch_name] // delete the branch (but not the commits if they are merged with master branch)
+
+git merge branch1 branch2 // merge two local branches, branch2 merges into branch1
+
+
+
+git log // show commit logs
+
+git diff // compare working directory with staging area
+
+git show [commit_id] // show changes compared to its parent
+
+git checkout [commit ID OR branch name] // restore working tree files OR switch branches 
+
+git checkout -b [new branch name] = git branch [new branch name] AND git checkout [new branch name]
+
+
+
+git remote add [name] [url] // common names: origin or upstream (if the repo is forked)
+
+git remote // shows the remotes present in directory
+
+git remote -v // shows a better description, verbose
